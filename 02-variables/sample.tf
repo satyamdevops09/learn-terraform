@@ -29,7 +29,7 @@ variable "number1" {
 }
 
 variable "number2" {
-  default = 100.1
+  default = 100.2
 }
 
 # true or false is supported.
