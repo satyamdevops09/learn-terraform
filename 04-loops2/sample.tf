@@ -2,12 +2,12 @@ provider "aws" {}
 
 
 variable "instances"{
-  default={
-    frountend={
+  default= {
+    frountend= {
       instance_type="t3.small"
 
       }
-    catalogue={
+    catalogue= {
       instance_type="t3.small"
     }
   }
